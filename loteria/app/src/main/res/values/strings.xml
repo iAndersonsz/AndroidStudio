@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">loteria</string>
+    <string name="aplicativo_de_sorteio">Aplicativo de sorteio!</string>
+    <string name="sortear">Sortear</string>
+    <string name="sorteio_de_numeros">Sorteio de numeros</string>
+    <string name="numero">Numero:</string>
+    <string name="numero2">Numero2:</string>
+    <string name="numero1">Numero1:</string>
+    <string name="numero3">Numero3:</string>
+    <string name="numero4">Numero4:</string>
+    <string name="numero5">Numero5:</string>
+    <string name="numero6">Numero6:</string>
+</resources>

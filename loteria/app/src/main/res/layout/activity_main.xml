@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignWithParentIfMissing="false"
+    android:background="#878787"
+    android:clickable="false"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sortear"
+        android:layout_width="154dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="64dp"
+        android:background="#3C3535"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="botaoSorteio"
+        android:text="@string/sortear"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F4F0F0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textoResultado"
+        android:layout_width="416dp"
+        android:layout_height="70dp"
+        android:background="#3C3737"
+        android:fontFamily="casual"
+        android:text="@string/sorteio_de_numeros"
+        android:textAlignment="center"
+        android:textColor="#C3C2C2"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numeroSorteado"
+        android:layout_width="64dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginEnd="183dp"
+        android:layout_marginRight="183dp"
+        android:layout_marginBottom="248dp"
+        android:background="#3A3636"
+        android:text="-?"
+        android:textAllCaps="false"
+        android:textColor="#F4EFEF"
+        android:textColorHighlight="#D8B6B6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="441dp"
+        android:layout_height="33dp"
+        android:text="Digite os números e boa sorte !"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/numeroSorteado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoResultado"
+        app:layout_constraintVertical_bias="0.131" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
